@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-FR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,22 +10,24 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<header>
-  <!--Header navigation-->
-  <img src="/assets/logo.png" alt="logo">
-  <nav class="navegation">
-    <ul>
-      <li><a href="#">Accueil</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Portfolio</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
-</header>
 
-<!--Body's struture-->
+<!--START : body's struture-->
 <body> 
-  
+  <header>
+    <!--START : header navigation-->
+    <img src="/assets/logo.png" alt="logo">
+    <nav class="navegation">
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--END : header navigation-->
+
+  <!--START : accueil image-->
   <div class="Accueil">
     <input type="radio" name="slide" id="slide1" checked>
     <div class="slide">
@@ -39,55 +41,58 @@
   
     <label for="slide1" class="prev"> &lt; </label>
     <label for="slide2" class="next"> &gt; </label>
-    
   </div>
-
+  <!--END : accueil image-->
   <p class="paragraphUpper"><span style="color: #4083da;">WEBAGENCY</span>: L'AGENCE DE TOUS<br>
   VOS PROJETS!<br>avez un projet? la Webagency vous aide à le réaliser.<br>
-  <button>Plus d'info</button></p>
+  <button type="button">Plus d'info</button></p>
     
-<!--Texte dans Slyde-->
+<!--START : texte dans Slyde-->
   <section class="services">
     <h2 class="subtitle">NOS SERVICES</h2>
-    De taille humaine, notre agence vous acompagne du début à la fin de votre projet. Nos experts
+    <p>De taille humaine, notre agence vous acompagne du début à la fin de votre projet. Nos experts
     vous aident à <br>
     optmiser l'expérience utilisateur et tirer le meilleur pottentiel<br> de chaque support,
-    du web au mobile
+    du web au mobile</p>
   </section>
+<!--END : texte dans Slyde-->
 
-  <!--structure our services-->
+  <!--START : structure our services-->
     <div class="img-services">
     <img src="/assets/main-feature.png" alt="Ordinateur">
     <ul>
       <li>
         <h2>UX design</h2>
-        Une équipe passionée qui place l'utilisateur final au centre de sa<br>
-        démarche pour une technologie plus humaine.
+        <p>Une équipe passionée qui place l'utilisateur final au centre de sa<br>
+        démarche pour une technologie plus humaine.</p>
       <li>
         <h2>UI design</h2>
-        Une interface optmisée qui permet à votre site web de rester à a page <br>
-        au gré des évolutions techniques et ses nouveaux usages.
+        <p>Une interface optmisée qui permet à votre site web de rester à a page <br>
+        au gré des évolutions techniques et ses nouveaux usages.</p>
       </li>
         <h2>SEO</h2>
-        Nos experts en réferecement vous permettent de<br>
-        positionnement de votre site afin d'augmenter votre conservion.
+        <p>Nos experts en réferecement vous permettent de<br>
+        positionnement de votre site afin d'augmenter votre conservion.</p>
       </li>
     </ul>
     </div>
+  <!--END : structure our services-->
+  
+  <!--STAR : structure our portfolio-->
     <section class="portfolio">
         <h2 class="subtitle">NOS PROJETS</h2>
-        Beacoup d'interprises et particuliers nous on fais confiance pour leur projets! Découvrez
-        une selection de nos <br> réalisations tendances, modernes et innovantes
-        
-      <div class="accès">
-        <a href="#" target="_blank">Tous</a>
-        <a href="#" target="_blank">Créations</a>
-        <a href="#" target="_blank">Corporate</a>
-        <a href="#" target="_blank">Portfolio</a>
-      </div>
-    </section>
+        <p>Beacoup d'interprises et particuliers nous on fais confiance pour leur projets! Découvrez
+        une selection de nos <br> réalisations tendances, modernes et innovantes.</p>
+        <div class="accès">
+          <a href="#" target="_blank">Tous</a>
+          <a href="#" target="_blank">Créations</a>
+          <a href="#" target="_blank">Corporate</a>
+          <a href="#" target="_blank">Portfolio</a>
+        </div>
+      </section>
+  <!--END : structure our portfolio-->     
       
-      <!--Figures and services with tabs in hover-->
+  <!--START : figures and services with tabs in hover-->
       <section class="figure">
         <img class="image1" src="/assets/01.jpg" width="320" alt="Lunettes noires." >
         <img src="/assets/02.jpg" width="320" alt="Lapin rose, qui utilise des lunettes noires et tient une boîte cadeau.  Fond bleu."  class="image2">
@@ -98,11 +103,14 @@
         <img src="/assets/07.jpg" width="320" alt="Logo d’une fusée en lancement noir, avec fond beige."  class="image7">
         <img src="/assets/08.jpg" width="320" alt="Divers accessoires de bureau."  class="image8">
       </section>
-      
+  <!--END : figures and services with tabs in hover-->    
 
-      <!--Map du site web-->
+  <!--START : site map-->
       <section class="figCaption">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.2214250252023!2d2.347250676198092!3d48.87305529967482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66e145ccb3091%3A0x9495beee8c96ec27!2s25%20Rue%20d&#39;Hauteville%2C%2075010%20Paris!5e0!3m2!1sfr!2sfr!4v1695806977793!5m2!1sfr!2sfr" width="600" height="450" style="border:1;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <!--END : site map-->
+  
+  <!--START : website map form-->
         <form>
           <h3> Contact info</h3>
           <strong>WebAgency SAS</strong><br>
@@ -119,10 +127,12 @@
           <div class="message">
             <input type="text" placeholder="Votre message...">
           </div>
-          <button>Envoie Message</button>
+          <button type="submit">Envoie Message</button>
         </form>
       </section>
+  <!--START : website map form-->
 
+  
       <script>
         let slideIndex = 1;
         
